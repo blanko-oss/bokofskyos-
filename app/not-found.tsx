@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import { ArrowLeft, ScanLine } from 'lucide-react';
+export default function NotFound() { return <main className="not-found"><div className="not-found-grid"/><div className="not-found-inner"><span className="not-found-mark">B<span>/</span></span><p className="eyebrow"><ScanLine size={15}/> SYSTEM MESSAGE / 404</p><h1>LOST IN<br/><span>THE VOID.</span></h1><p>The page you requested could not be found. It may have moved, or it may never have existed.</p><Link href="/" className="button button-primary"><ArrowLeft size={17}/> Return to base</Link><small>BOKOFSKY OS · CONNECTION INTACT</small></div></main>; }
